@@ -1,4 +1,6 @@
-/* TASK
+/* TASK */
+
+/*
 Įmonė nori įsigyti 2 baltus arba juodus tos pačios rūšies kompiuterius (būtinai vienos spalvos), kurių bendra kaina neviršytų 1600 €. Sugeneruokite sąrašą kompiuterių, kuriuos galite pasiūlyti.
 
 Masyvas su objektais:
@@ -36,6 +38,7 @@ Spalvos: balta ir juoda
 */
 
 /* SOLUTION */
+
 console.log("Galimi variantai: \n \n");
 for (i=0; i<7; i++){
     if (PCs[i].kaina * 2 <= 1600){
